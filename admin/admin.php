@@ -129,7 +129,6 @@ namespace rtCamp\WP\Nginx {
             }
 
             /* Load Plugin CSS */
-            wp_enqueue_style('rt-nginx-admin-icon', plugin_dir_url(__FILE__) . 'assets/nginx-helper-icons/css/nginx-fontello.css');
             wp_enqueue_style('rt-nginx-admin-css', plugin_dir_url(__FILE__) . 'assets/style.css');
 
             /* Load Plugin Scripts */
