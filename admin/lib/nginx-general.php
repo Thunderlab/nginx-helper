@@ -106,7 +106,7 @@ namespace rtCamp\WP\Nginx {
                                 <td>
                                     <input type="checkbox" value="1" id="enable_purge" name="enable_purge" <?php checked($rt_wp_nginx_helper->options['enable_purge'], 1); ?> />
                                     <label for="enable_purge">
-                                        <?php printf( __( 'Enable Cache Purge (<a target="_blank" href="%s" title="External settings for nginx">requires external settings for nginx</a>)', 'nginx-helper' ), $nginx_setting_link ); ?>
+                                        <?php printf( __( 'Enable Cache Purge', 'nginx-helper' ), $nginx_setting_link ); ?>
                                     </label>
                                 </td>
                             </tr>
