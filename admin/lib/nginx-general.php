@@ -96,7 +96,7 @@ namespace rtCamp\WP\Nginx {
         <form id="post_form" method="post" action="#" name="smart_http_expire_form" class="clearfix">
             <div class="postbox">
                 <h3 class="hndle">
-                    <span><?php _e('Plugin Options', 'nginx-helper'); ?></span>
+                    <span><?php _e('Cache Options', 'nginx-helper'); ?></span>
                 </h3>
                 <?php if ( !( !is_network_admin() && is_multisite() ) ) { ?>
                     <div class="inside">
