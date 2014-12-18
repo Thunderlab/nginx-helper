@@ -75,7 +75,7 @@ namespace rtCamp\WP\Nginx {
             } ?>
 
             <div class="wrap rt-nginx-wrapper">
-                <h2 class="rt_option_title"><?php _e( 'Nginx Settings', 'nginx-helper' ); ?></h2>
+                <h2 class="rt_option_title"><?php _e( 'Cache Settings', 'nginx-helper' ); ?></h2>
                 <div id="poststuff">
                     <div id="post-body" class="metabox-holder columns-2">
                         <div id="post-body-content"><?php
